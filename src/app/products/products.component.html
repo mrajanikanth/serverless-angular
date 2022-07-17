@@ -1,0 +1,17 @@
+<div class="products">
+  <main
+    class="products-list"
+    *ngIf="products | async as products; else loadingBlock"
+  >
+    <app-product-list
+      class="product-item"
+      *ngFor="let product of products"
+      [product]="product"
+    >
+      {{ product.name }}
+    </app-product-list>
+  </main>
+  <ng-template #loadingBlock>
+    <p>Loading products...</p>
+  </ng-template>
+</div>

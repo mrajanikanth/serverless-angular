@@ -1,0 +1,29 @@
+* {
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: inherit;
+  font-size: 100%;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: black;
+  display: inline-block;
+  font-family: 'Poiret One', sans-serif;
+  font-size: 25px;
+  position: relative;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+a:hover {
+  background-color: rgba(143, 188, 143, 0.2);
+}
+a.active {
+  background-color: linen;
+}
+a:visited {
+  color: black;
+}

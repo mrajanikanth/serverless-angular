@@ -1,0 +1,12 @@
+[build]
+  command = "ng build --prod && npm run scully"
+  functions = "./functions"
+  publish = "dist/static"
+[dev]
+  command = "npm run start"
+  functions = "./functions"
+  publish = "src"
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
