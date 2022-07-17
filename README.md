@@ -4,7 +4,7 @@
 
 To skip all this you could also just click this button:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/tzmanics/serverless-angular&utm_source=github&utm_medium=ng-prerender-tzm&utm_campaign=devex)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/mrajanikanth/serverless-angular&utm_source=github&utm_medium=ng-prerender-tzm&utm_campaign=devex)
 
 ### Local Setup
 
@@ -45,3 +45,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# update
